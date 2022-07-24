@@ -1,0 +1,44 @@
+[book]
+authors = ["zzy"]
+title = "书籍文档共用主题"
+description = "书籍文档共用主题"
+src = "src"
+language = "zh"
+multilingual = true
+
+[build]
+build-dir = "../build-dist/books-theme"
+
+[output.html]
+theme = "theme"
+# default-theme = "rust"
+git-repository-url = "https://github.com/gaidun/books-theme"
+# git-repository-icon = "fa-github"
+curly-quotes = true
+mathjax-support = true
+
+[output.html.playpen]
+editable = true
+copy-js = true
+
+[output.html.search]
+limit-results = 20
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 2
+boost-paragraph = 1
+expand = true
+heading-split-level = 3
+copy-js = true
+
+# [output.markdown]
+
+# [output.epub]
+
+# [output.latex]
+# latex    = true  # default = true
+# pdf      = true  # default = false
+# markdown = true  # default = false
+
+[output.html.print]
+enable = false
