@@ -6,6 +6,9 @@ src = "src"
 language = "zh"
 multilingual = true
 
+[rust]
+edition = "2021"
+
 [build]
 build-dir = "../build-dist/books-theme"
 
