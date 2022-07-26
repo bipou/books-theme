@@ -20,6 +20,10 @@ git-repository-url = "https://github.com/zzy"
 curly-quotes = true
 mathjax-support = true
 
+[output.html.fold]
+enable = true
+level = 4
+
 [output.html.playpen]
 editable = true
 copy-js = true
