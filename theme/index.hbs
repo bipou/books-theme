@@ -158,7 +158,16 @@
                     <h1 class="menu-title">{{ book_title }}</h1>
 
                     <div class="right-buttons">
-                        <a href="//books.niqin.com" target="_blank" aria-label="Books">Books</a>
+                        <span style="font-size: 14px; font-weight:bold; color: blue;">
+                            <script src="//static.niqin.com/js/lang-ver.js"></script>
+                        </span>
+                        <span style="margin-left: 8px; margin-right: 8px; color: gray;">|</span>
+
+                        <span style="font-size: 14px; font-weight:bold; color: blue;">
+                            <script src="//static.niqin.com/js/lang-books.js"></script>
+                        </span>
+                        <span style="margin-left: 8px; margin-right: 8px; color: gray;">|</span>
+
                         {{#if print_enable}}
                             <a href="{{ path_to_root }}print.html" title="Print this book" aria-label="Print this book">
                                 <i id="print-button" class="fa fa-print"></i>
