@@ -1,3 +1,3 @@
 # books-theme
 
-Books theme for https://books.niqin.com
+Books theme for https://niqin.com
