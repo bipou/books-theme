@@ -26,6 +26,7 @@ level = 4
 
 [output.html.playpen]
 editable = true
+line-numbers = true
 copy-js = true
 
 [output.html.search]
